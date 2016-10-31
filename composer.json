@@ -1,0 +1,12 @@
+{
+  "name": "etdsolutions/flatpickr",
+  "description": "Shim repository for flatpickr.js",
+  "homepage": "https://github.com/chmln/flatpickr",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gregory",
+      "email": "gregory.mkv@gmail.com"
+    }
+  ]
+}
