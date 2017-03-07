@@ -1,0 +1,12 @@
+# IDE & System Related Files #
+.DS_Store
+.idea/*
+
+# OSX #
+._*
+.Spotlight-V100
+.Trashes
+
+# Never ignore #
+# Only apply this rule to the main repository's gitignore files
+!/.gitignore
