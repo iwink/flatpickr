@@ -1,5 +1,5 @@
 /* French locals for flatpickr */
-var Flatpickr = Flatpickr || { l10ns: {} };
+var Flatpickr = Flatpickr||{l10ns: {}};
 Flatpickr.l10ns.fr = {};
 
 Flatpickr.l10ns.fr.firstDayOfWeek = 1;
@@ -14,7 +14,7 @@ Flatpickr.l10ns.fr.months = {
 	longhand: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
 };
 
-Flatpickr.l10ns.fr.ordinal = function (nth) {
+Flatpickr.l10ns.fr.ordinal = (nth) => {
 	if (nth > 1) {
 		return "ème";
 	}
@@ -24,3 +24,8 @@ Flatpickr.l10ns.fr.ordinal = function (nth) {
 if (typeof module !== "undefined") {
 	module.exports = Flatpickr.l10ns;
 }
+
+Flatpickr.l10ns.fr.rangeSeparator = " au ";
+Flatpickr.l10ns.fr.weekAbbreviation = "Sem";
+Flatpickr.l10ns.fr.scrollTitle = "Défiler pour augmenter la valeur";
+Flatpickr.l10ns.fr.toggleTitle = "Cliquer pour basculer";
