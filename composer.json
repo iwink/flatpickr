@@ -1,12 +1,16 @@
 {
-  "name": "etdsolutions/flatpickr",
+  "name": "iwink/flatpickr",
   "description": "Shim repository for flatpickr.js",
-  "homepage": "https://github.com/chmln/flatpickr",
+  "homepage": "https://github.com/iwink/flatpickr",
   "license": "MIT",
   "authors": [
     {
       "name": "Gregory",
       "email": "gregory.mkv@gmail.com"
+    },
+    {
+      "name": "Simon Wisselink",
+      "email": "s.wisselink@iwink.nl"
     }
   ]
 }
